@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main()
+{
+    char name[10];
+    char c_num[10];
+    
+    std::cin>>name>>c_num;
+    std::cout << name << std::endl;
+    std::cout << c_num << std::endl;
+    return 0;
+}
