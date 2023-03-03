@@ -1,0 +1,17 @@
+int f(int a=10)
+
+{
+
+     return a+1;
+
+}
+
+int f(void)
+
+{
+
+     return 10;
+
+}
+
+//int f(int a=10)함수와 int f(void)함수를 호출하는 코드인 f();를 사용했을때 컴파일러가 둘중 무었을 불려야할지 모르기 때문
